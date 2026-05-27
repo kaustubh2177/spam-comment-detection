@@ -1,0 +1,25 @@
+# Spam Comment Detection using AI
+
+This project detects spam comments on social media platforms using:
+- TF-IDF + Cosine Similarity
+- ALBERT (Transformer-based NLP model)
+
+## Dataset
+- YouTube Spam Collection Dataset (Kaggle)
+
+## Technologies Used
+- Python
+- Scikit-learn
+- NLTK
+- Transformers (ALBERT)
+- PyTorch
+
+## How to Run
+1. Install dependencies  
+   pip install -r requirements.txt
+
+2. Run TF-IDF model  
+   python spam_tfidf.py
+
+3. Run ALBERT model  
+   python spam_albert.py
